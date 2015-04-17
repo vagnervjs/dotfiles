@@ -1,0 +1,44 @@
+[
+	{"id": "side-bar-files-open-with",
+		"children":
+		[
+
+			{
+				"caption": "Photoshop",
+				"id": "side-bar-files-open-with-photoshop",
+
+				"command": "side_bar_files_open_with",
+				"args": {
+									"paths": [],
+									"application": "Adobe Photoshop CS5.app", // OSX
+									"extensions":"psd|png|jpg|jpeg"  //any file with these extensions
+								}
+			},
+
+			{"caption":"-"},
+
+			{
+				"caption": "Chrome",
+				"id": "side-bar-files-open-with-chrome",
+
+				"command": "side_bar_files_open_with",
+				"args": {
+									"paths": [],
+									"application": "C:\\Documents and Settings\\tito\\Configuración local\\Datos de programa\\Google\\Chrome\\Application\\chrome.exe",
+									"extensions":".*" //any file with extension
+								}
+			},
+			{
+				"caption": "Mou",
+				"id": "side-bar-files-open-with-mou",
+
+				"command": "side_bar_files_open_with",
+				"args": {
+									"paths": [],
+									"application": "Mou.app", // OSX
+									"extensions":"md"  //any file with these extensions
+								}
+			}
+		]
+	}
+]

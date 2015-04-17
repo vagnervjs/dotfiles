@@ -1,0 +1,33 @@
+{
+	"in_process_packages":
+	[
+	],
+	"installed_packages":
+	[
+		"Alignment",
+		"Better JavaScript",
+		"Color Highlighter",
+		"ColorPicker",
+		"Dracula Color Scheme",
+		"EditorConfig",
+		"Emmet",
+		"Idiomatic-CSS-Comments-Snippets",
+		"JavaScript & NodeJS Snippets",
+		"JavaScript Patterns",
+		"JavaScript Snippets",
+		"jQuery",
+		"jQuery Snippets pack",
+		"JS Snippets",
+		"JSCS-Formatter",
+		"JsFormat",
+		"LESS",
+		"Package Control",
+		"Sass",
+		"SideBarEnhancements",
+		"SublimeLinter",
+		"SublimeLinter-jscs",
+		"Theme - Spacegray",
+		"Tomorrow Color Schemes",
+		"TrailingSpaces"
+	]
+}
