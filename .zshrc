@@ -29,7 +29,7 @@ unsetopt correct
 
 # -- Aliases -------------------------------------------------------------------
 source $HOME/.dotfiles/.aliases
-source $HOME/Dropbox/dotfiles/.aliases
+source $HOME/Dropbox/.dotfiles/.aliases
 
 # -- Rbenv ---------------------------------------------------------------------
 export PATH="$HOME/.rbenv/bin:$PATH"

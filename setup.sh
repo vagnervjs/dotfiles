@@ -1,7 +1,7 @@
 cd ~
-ln -s ~/Dropbox/dotfiles/.zshrc
-ln -s ~/Dropbox/dotfiles/.gitconfig
-ln -s ~/Dropbox/dotfiles/.gitignore_global
+ln -s ~/Dropbox/.dotfiles/.zshrc
+ln -s ~/Dropbox/.dotfiles/.gitconfig
+ln -s ~/Dropbox/.dotfiles/.gitignore_global
 
 cd ~/Library/Application\ Support/Sublime\ Text\ 3/
 rm -rf Installed\ Packages
