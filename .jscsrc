@@ -1,0 +1,18 @@
+{
+    "preset": "google",
+    "fileExtensions": [ ".js", ".jsx", "jscs" ],
+
+    "disallowMultipleVarDecl": "exceptUndefined",
+    "requireParenthesesAroundIIFE": true,
+    "maximumLineLength": 120,
+    "safeContextKeyword": "_self",
+    "requireSpaceBeforeKeywords": [
+        "else",
+        "while",
+        "catch"
+    ],
+
+    "excludeFiles": [
+        "libs/**"
+    ]
+}

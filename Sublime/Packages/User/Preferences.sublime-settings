@@ -4,9 +4,9 @@
 	"font_size": 12,
 	"ignored_packages":
 	[
-		"Color Highlighter",
 		"Vintage",
-		"JavaScript"
+		"JavaScript",
+		"Color Highlighter"
 	],
 	"theme": "Spacegray.sublime-theme"
 }

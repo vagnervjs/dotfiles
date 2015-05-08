@@ -8,7 +8,7 @@
 		"gutter_theme_excludes":
 		[
 		],
-		"lint_mode": "load/save",
+		"lint_mode": "background",
 		"linters":
 		{
 			"jscs":
@@ -22,8 +22,9 @@
 				]
 			}
 		},
-		"mark_style": "outline",
+		"mark_style": "stippled underline",
 		"no_column_highlights_line": false,
+		"passive_warnings": false,
 		"paths":
 		{
 			"linux":
@@ -50,7 +51,7 @@
 		},
 		"rc_search_limit": 3,
 		"shell_timeout": 10,
-		"show_errors_on_save": true,
+		"show_errors_on_save": false,
 		"show_marks_in_minimap": true,
 		"syntax_map":
 		{

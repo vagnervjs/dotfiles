@@ -1,12 +1,49 @@
+###################################################
+#                 Base Aliases                    #
+###################################################
+
+# Go up N directories
+up() {
+  str=""
+  count=0
+  while [ "$count" -lt "$1" ];
+  do
+    str=$str"../"
+    let count=count+1
+  done
+  cd $str
+}
+
+# Python Server
+alias pyserver="open http://localhost:8080 && python -m SimpleHTTPServer 8080"
+
+# Node Server
+alias server='open http://localhost:8888 && http-server -p 8888'
+
+###################################################
+#                   My Aliases                    #
+###################################################
+
 # Easier navigation
 alias ..="cd .."
-alias ~="cd ~" # `cd` is probably faster to type though
+alias ~="cd ~"
 
 # Shortcuts
 alias dk="cd ~/Desktop"
 alias dl="cd ~/Downloads"
-alias dropbox="cd ~/Dropbox"
-alias evt='cd ~/Desktop/eventials'
+alias dpbox="cd ~/Dropbox"
+alias gdrive="cd ~/Google\ Drive"
+
+# Force Sublime Text open new projects in the same window
+alias subl="subl -a"
+
+# Eventials Aliases
+alias evt="cd ~/Desktop/eventials"
+alias evtwz="cd ~/Google\ Drive/eventials-sources/scripts/py/restart_wowza/ && fab staging restart"
+
+###################################################
+#               Additional Aliases                #
+###################################################
 
 # Detect which `ls` flavor is in use
 if ls --color > /dev/null 2>&1; then # GNU `ls`

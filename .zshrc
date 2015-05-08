@@ -28,7 +28,6 @@ unsetopt correct_all
 unsetopt correct
 
 # -- Aliases -------------------------------------------------------------------
-source $HOME/.dotfiles/.aliases
 source $HOME/Dropbox/.dotfiles/.aliases
 
 # -- Rbenv ---------------------------------------------------------------------
