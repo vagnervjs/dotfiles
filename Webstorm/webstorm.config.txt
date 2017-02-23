@@ -1,0 +1,2 @@
+https://github.com/ChrisRM/material-theme-jetbrains
+https://github.com/minwe/oceanic-next-jetbrains

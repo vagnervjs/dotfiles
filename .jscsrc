@@ -1,18 +1,33 @@
 {
     "preset": "google",
-    "fileExtensions": [ ".js", ".jsx", "jscs" ],
+    "fileExtensions": [ ".js", ".jsx"],
 
-    "disallowMultipleVarDecl": "exceptUndefined",
+    "maxErrors": 1000,
+    "validateIndentation": 4,
+    "maximumLineLength": {
+      "value": 120,
+      "allExcept": ["comments", "regex"]
+    },
+
+    "safeContextKeyword": "self",
     "requireParenthesesAroundIIFE": true,
-    "maximumLineLength": 120,
-    "safeContextKeyword": "_self",
+
+    "disallowMultipleVarDecl": null,
+    "disallowKeywordsOnNewLine": null,
+
+    "requireCurlyBraces": null,
+    "disallowCurlyBraces": true,
+
     "requireSpaceBeforeKeywords": [
         "else",
         "while",
         "catch"
     ],
+    "disallowSpacesInAnonymousFunctionExpression": null,
+    "disallowSpacesInFunctionExpression": null,
 
-    "excludeFiles": [
-        "libs/**"
-    ]
+    "requireSpacesInAnonymousFunctionExpression": {
+        "beforeOpeningRoundBrace": true,
+        "beforeOpeningCurlyBrace": true
+    }
 }

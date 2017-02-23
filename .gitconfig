@@ -22,7 +22,8 @@
     cp = cherry-pick
 
     # Diff
-    df = diff
+    df = icdiff
+    dfc = icdiff --cached
 
     # List
     tl = tag -l
@@ -95,3 +96,5 @@
 [core]
     editor = subl -n -w
     excludesfile = ~/.gitignore_global
+[url "https://github.com/"]
+	insteadOf = git://github.com/

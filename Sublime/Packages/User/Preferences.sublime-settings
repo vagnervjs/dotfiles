@@ -1,12 +1,28 @@
 {
-	"color_scheme": "Packages/User/SublimeLinter/base16-ocean.dark (SL).tmTheme",
+	"always_show_minimap_viewport": true,
+	"color_scheme": "Packages/User/SublimeLinter/Oceanic Next (SL).tmTheme",
+	"detect_indentation": true,
 	"ensure_newline_at_eof_on_save": true,
+	"font_face": "Meslo LG S Regular for Powerline",
 	"font_size": 12,
 	"ignored_packages":
 	[
-		"Vintage",
 		"JavaScript",
-		"Color Highlighter"
+		"Vintage"
 	],
-	"theme": "Spacegray.sublime-theme"
+	"line_padding_bottom": 0,
+	"line_padding_top": 0,
+	"material_theme_accent_lime": false,
+	"material_theme_accent_orange": false,
+	"material_theme_accent_purple": false,
+	"material_theme_accent_red": false,
+	"material_theme_accent_yellow": false,
+	"material_theme_panel_separator": false,
+	"material_theme_small_statusbar": true,
+	"material_theme_small_tab": true,
+	"material_theme_tabs_separator": true,
+	"overlay_scroll_bars": "enabled",
+	"tab_size": 2,
+	"theme": "Default.sublime-theme",
+	"translate_tabs_to_spaces": true
 }

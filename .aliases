@@ -33,13 +33,24 @@ alias dk="cd ~/Desktop"
 alias dl="cd ~/Downloads"
 alias dpbox="cd ~/Dropbox"
 alias gdrive="cd ~/Google\ Drive"
+alias dev="cd ~/Dev"
 
 # Force Sublime Text open new projects in the same window
 alias subl="subl -a"
 
-# Eventials Aliases
-alias evt="cd ~/Desktop/eventials"
-alias evtwz="cd ~/Google\ Drive/eventials-sources/scripts/py/restart_wowza/ && fab staging restart"
+# Work Aliases
+alias intelie="cd ~/Desktop/intelie/"
+
+alias live="cd ~/Desktop/intelie/live/webapp"
+alias rlive="cd ~/Desktop/intelie/live && mvn clean && ./run"
+
+alias live-insights="cd ~/Desktop/Intelie/live-insights"
+alias rinsights="cd ~/Desktop/Intelie/live-insights && nvm use v5 && open http://localhost:8082/app && webpack-dev-server"
+
+alias startdbs="sudo /usr/local/mysql/support-files/mysql.server start && mongod"
+
+alias watch-plugins="cd ~/Desktop/intelie/live/live-plugins && webpack-dev-server"
+alias rm-live-ui="rm -rf ~/Desktop/Intelie/live/runtime/plugins/live-ui-*.jar"
 
 ###################################################
 #               Additional Aliases                #
